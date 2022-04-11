@@ -28,5 +28,7 @@ public static void main(String[] args) {
     car.matricula ="P2EW342";
     car.pasajeros = 2;
     car.printDataCar();
+
+    
     
 }}
