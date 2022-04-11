@@ -7,6 +7,13 @@ public class Car {
     String dueño;
     Integer pasajeros; 
 
+    public Car(String marca, String dueño , String matricula , Integer pasajeros){ //METODO CONSTRUCTOR
+        this.dueño = dueño;
+        this.matricula = matricula;
+        this.marca = marca;
+    
+    }
+
     void printDataCar(){
         System.out.println("License: " + matricula + "Dueño" + dueño);
     }
